@@ -82,6 +82,49 @@ class triangulos:
 
 ![image](https://github.com/user-attachments/assets/9ec3f152-3437-460b-b824-5a36fbe974e5)
 
+print(" ")
+print("Gomez Garcia Andres Noe: 1184")
+print(" ")
+
+class calculadora:
+    def inicio(self, n1, n2):  
+        def suma():
+            r = n1 + n2
+            return r
+        def resta():
+            r = n1 - n2
+            return r
+        def multiplicacion():  
+            r = n1 * n2
+            return r
+        def division():
+            if n2 != 0:  # Para evitar la división por cero
+                r = n1 / n2
+                return r
+            else:
+                print("Error: División por cero") 
+        
+        # Mostrar los resultados de las operaciones
+        return suma(), resta(), multiplicacion(), division()
+
+# Crear una instancia de la clase y llamar al método inicio
+calc = calculadora()
+resultados = calc.inicio(55, 10)
+
+# Mostrar los resultados
+print("Suma: ", resultados[0])
+print("Resta:", resultados[1])
+print("Multiplicación:", resultados[2])
+print("División:", resultados[3])
+
+![image](https://github.com/user-attachments/assets/c5dfd3dd-a3bb-4bc9-b91c-bbbbdfab1d86)
+
+![image](https://github.com/user-attachments/assets/64c201ff-186a-4bad-b8a6-02369abfaa63)
+
+
+
+
+
 
 
 
