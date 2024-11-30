@@ -55,6 +55,38 @@ class Persona:
 ![image](https://github.com/user-attachments/assets/946ceadb-ef80-40f5-bc8c-947cb3b74166)
 
 
+print(" ")
+print("Gomez Garcia Andres Noe: 1184")
+print(" ")
+
+#Define una clase con una funcion
+class triangulos:
+    #Define una funcion que dice si el triangulo es isoceles escaleno o equilatero
+    def definicion(cateto1,cateto2,base):
+        if cateto1==cateto2==base:
+            print("Es un triangulo equilatero")
+        elif cateto1==cateto2!=base:
+            print("Es un triangulo isoceles")
+        elif cateto1!=cateto2==base:
+            print("Es un triangulo isoceles")
+        elif cateto1!=cateto2!=base:
+            print("Es un triangulo isoceles")
+    
+    print(definicion(12,12,12))
+    print(" ")
+    print(definicion(12,13,12))
+    print(" ")
+    print(definicion(12,13,14))
+
+![image](https://github.com/user-attachments/assets/06d0109b-58cd-4199-96e5-11295f025927)
+
+![image](https://github.com/user-attachments/assets/9ec3f152-3437-460b-b824-5a36fbe974e5)
+
+
+
+
+
+
 
 
 
